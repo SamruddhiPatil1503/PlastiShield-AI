@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PlastiShield AI"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#176B45"
+            android:gravity="center"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Waste Detection &amp; Recycling Guide"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identify waste and discover the right way to recycle it."
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="28dp"/>
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter"
+            android:background="#E0EAE3"
+            android:contentDescription="Selected Waste Image Preview"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Capture Waste Image"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#218C59"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Upload from Gallery"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#218C59"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAskAI"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Ask AI - Detect Waste"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B45"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnMaterialSuitability"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="PlastiShield Material Suitability"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0B7650"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnPlasticWasteTracker"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Plastic Waste to Paint Tracker"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0B7650"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnImpactDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Impact Dashboard"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B45"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnRecyclingGuide"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Recycling Guide"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B45"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnScanHistory"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Scan History"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B45"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turning Waste into a Sustainable Future"
+            android:textSize="13sp"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

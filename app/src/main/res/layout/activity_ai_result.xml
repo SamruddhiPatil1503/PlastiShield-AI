@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻️ PlastiShield AI Result"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:gravity="center"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category: Plastic"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtRecyclability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estimated Recyclability: 60%"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="12dp" />
+
+        <ProgressBar
+            android:id="@+id/progressRecyclability"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:max="100"
+            android:progress="60"
+            android:progressTint="#2E9D58"
+            android:progressBackgroundTint="#D5E5D9" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Explanation"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:paddingTop="22dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI explanation will appear here."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:padding="12dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practical Recycling Advice"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:paddingTop="22dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycling advice will appear here."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:padding="12dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtDisclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note: Recyclability percentage is an AI estimate, not a measured value."
+            android:textSize="13sp"
+            android:textColor="#777777"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnMaterialSuitability"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="PlastiShield Material Suitability"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0B7650"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnShareResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Result"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

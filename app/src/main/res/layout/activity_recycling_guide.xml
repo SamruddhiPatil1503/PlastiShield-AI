@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻️ Recycling Guide"
+            android:textColor="#176B3A"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a waste category to learn how to recycle it."
+            android:textColor="#444444"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnPlastic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plastic Recycling" />
+
+        <Button
+            android:id="@+id/btnPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paper Recycling" />
+
+        <Button
+            android:id="@+id/btnMetal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metal Recycling" />
+
+        <Button
+            android:id="@+id/btnGlass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glass Recycling" />
+
+        <Button
+            android:id="@+id/btnOrganic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organic Waste" />
+
+        <Button
+            android:id="@+id/btnEwaste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Waste Recycling" />
+
+        <Button
+            android:id="@+id/btnOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other Waste" />
+
+    </LinearLayout>
+</ScrollView>

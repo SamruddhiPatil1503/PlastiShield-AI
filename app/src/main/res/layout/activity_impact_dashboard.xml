@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌍 PlastiShield Impact Dashboard"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Plastic Recycling Progress"
+            android:textSize="15sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♻️ Total Plastic Collected"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/collectedValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Total Plastic Reused"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/reusedValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎨 Total Paint Produced"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/paintValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LDPE Records"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/ldpeValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="22sp"
+            android:textColor="#222222"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HDPE Records"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/hdpeValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="22sp"
+            android:textColor="#222222"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Total Records"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#176B3A"
+            android:padding="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/recordsValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="22sp"
+            android:textColor="#222222"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note: Values are calculated from actual saved records. No estimated environmental benefits are included."
+            android:textSize="13sp"
+            android:textColor="#555555"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

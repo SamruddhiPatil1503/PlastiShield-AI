@@ -1,0 +1,35 @@
+
+<resources>
+
+    <string name="app_name">PLASTISHIELD_AI</string>
+
+    <string-array name="plastic_types">
+        <item>Select Plastic Type</item>
+        <item>LDPE</item>
+        <item>HDPE</item>
+        <item>PET</item>
+        <item>PP</item>
+        <item>Other</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="material_purity">
+        <item>Select Material Purity</item>
+        <item>Pure</item>
+        <item>Mostly Pure</item>
+        <item>Mixed</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="contamination_types">
+        <item>Select Contamination</item>
+        <item>Clean</item>
+        <item>Dust</item>
+        <item>Oil</item>
+        <item>Mud</item>
+        <item>Paint</item>
+        <item>Other</item>
+        <item>Unknown</item>
+    </string-array>
+
+</resources>

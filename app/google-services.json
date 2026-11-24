@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "664188957613",
+    "project_id": "plastishield-ai",
+    "storage_bucket": "plastishield-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664188957613:android:2c7010643b37d4e02fa724",
+        "android_client_info": {
+          "package_name": "com.plastishield.ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp_GnY-xWshBOCdUhJ2OwfyiwPjX7vBP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
